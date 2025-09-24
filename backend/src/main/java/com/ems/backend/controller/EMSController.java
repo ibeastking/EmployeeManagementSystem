@@ -18,7 +18,6 @@ import java.util.Optional;
 @RequestMapping("/ems")
 public class EMSController {
 
-    // Autowiring
     @Autowired
     private EMSService emsService;
 
