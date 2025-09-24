@@ -20,7 +20,7 @@ const App: React.FC = () => {
     position: "",
   });
 
-  //* Fetch Employees on Load
+  //* Fetch Employees on Load condition
   useEffect(() => {
     const fetchEmployees = async () => {
       try {
